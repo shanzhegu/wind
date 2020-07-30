@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["CompanyNews"],{aeb9:function(e,n,a){"use strict";a.r(n);var t=function(){var e=this,n=e.$createElement,a=e._self._c||n;return a("div",[e._v(" 企业新闻 ")])},s=[],l={name:"CompanyNews"},o=l,u=a("2877"),c=Object(u["a"])(o,t,s,!1,null,null,null);n["default"]=c.exports}}]);
+//# sourceMappingURL=CompanyNews.36327ebd.js.map

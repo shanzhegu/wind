@@ -1,0 +1,4009 @@
+@charset "UTF-8";
+
+/* 
+main  --------  普通容器
+main-nav  -------  面包屑容器
+main-gray  ------  颜色容器
+main-800  -------  宽度容器
+ */
+.main-820 {
+  width: 100%;
+  max-width: 820px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+.main-1000 {
+  width: 100%;
+  max-width: 1000px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+.member-p {
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+.member-introduce {
+  padding: 20px 0;
+  /* Safari */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  zoom: 1;
+}
+.member-introduce:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.member-introduce-item {
+  padding: 10px 12px;
+  margin: 0 8px 0 6px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #c39831;
+  border: 1px solid #c39831;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  /* Safari */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.member-introduce-item:before {
+  width: 18px;
+  height: 18px;
+  display: block;
+  position: absolute;
+  left: -8px;
+  top: -7px;
+  background-color: #c39831;
+  color: #ffffff;
+  line-height: 18px;
+  text-align: center;
+}
+.member-introduce-item:nth-child(1):before {
+  content: '1';
+}
+.member-introduce-item:nth-child(2):before {
+  content: '2';
+}
+.member-introduce-item:nth-child(3):before {
+  content: '3';
+}
+.member-introduce-item:nth-child(4):before {
+  content: '4';
+}
+.member-introduce-item:nth-child(4) {
+  width: 304px;
+}
+.member-introduce-item:last-child {
+  margin-right: 0;
+}
+.member-ruhuichengxu {
+  padding: 30px 0;
+}
+.member-ruhuichengxu h4 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.member-ruhuichengxu > div {
+  height: 100px;
+  padding: 10px 0;
+  margin: 0 -1px;
+  zoom: 1;
+}
+.member-ruhuichengxu > div:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.member-ruhuichengxu > div > img {
+  float: left;
+  display: block;
+}
+.member-ruhuichengxu > div > img:nth-child(1) {
+  width: 308px;
+}
+.member-ruhuichengxu > div > img:nth-child(2) {
+  width: 187px;
+}
+.member-ruhuichengxu > div > img:nth-child(3) {
+  width: 170px;
+}
+.member-ruhuichengxu > div > img:nth-child(4) {
+  width: 157px;
+}
+.member-quanli-yiwu {
+  margin: 50px 0 30px;
+  /* Safari */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.member-quanli-yiwu-item {
+  position: relative;
+  width: 382px;
+  padding: 26px 0 16px;
+  border: 2px solid #99d8b1;
+}
+.member-quanli-yiwu-item:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -16px;
+  display: block;
+  width: 160px;
+  height: 24px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 24px;
+  border-left: 10px solid #ffffff;
+  border-right: 10px solid #ffffff;
+  background-color: #66c589;
+}
+.member-quanli-yiwu-item:nth-child(1):before {
+  content: '会员权利';
+}
+.member-quanli-yiwu-item:nth-child(2):before {
+  content: '会员义务';
+}
+.member-quanli-yiwu-item ul {
+  margin: 0 50px;
+}
+.member-quanli-yiwu-item ul li {
+  padding: 2px 0;
+  height: 24px;
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+}
+.member-quanli-yiwu-item ul li a {
+  display: block;
+  color: #000000;
+  line-height: 24px;
+  zoom: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.member-quanli-yiwu-item ul li a:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.member-quanli-yiwu-item ul li a span:first-child {
+  float: left;
+  height: 24px;
+  width: 40px;
+  font-size: 16px;
+  background-image: url(http://www.cwea.org.cn/images/ruhui-bg.png);
+  background-repeat: no-repeat;
+  background-position: 34px center;
+  line-height: 24px;
+  padding-right: 10px;
+  color: #66c589;
+  font-weight: bold;
+  text-indent: 6px;
+}
+/* 个人会员申请 */
+.member-personal {
+  padding: 40px 0;
+  overflow: hidden;
+}
+.member-personal p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  padding: 4px 0;
+  font-weight: bold;
+}
+h3 {
+  padding: 6px 0;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.h3-fu {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  padding: 4px 0;
+  font-weight: bold;
+}
+.member-personal p.down {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  padding: 4px 0;
+  font-weight: bold;
+}
+a.mail {
+  color: #217cb9;
+}
+a.btn {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 4px 28px;
+  background-color: #333f50;
+  line-height: 32px;
+  color: #ffffff;
+  text-align: center;
+}
+.member-personal a.btn {
+  display: block;
+  width: 250px;
+  margin: 16px auto;
+}
+.mian-footer {
+  background: url(http://www.cwea.org.cn/images/footer-bg.png) 0 0;
+}
+.footer {
+  padding: 34px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* Safari */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#section4 .footer
+{
+  padding: 22px;
+}
+
+.footer-item
+{
+  text-align: left;
+}
+.footer-item p {
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 20px;
+}
+.footer-item:nth-child(1) p {
+  line-height: 24px;
+  padding: 2px 0;
+}
+.footer-item:nth-child(2) div {
+  float: left;
+}
+.footer-item:nth-child(2) div > img {
+  padding-top: 4px;
+  padding-right: 16px;
+}
+.footer-item:nth-child(2) div > p {
+  overflow: hidden;
+  height: 20px;
+}
+.footer-item:nth-child(2) div > p a {
+  color: #ffffff;
+}
+.footer-item:nth-child(2) div > p span {
+  float: left;
+  width: 24px;
+}
+.footer-item:nth-child(2) div > p:nth-child(2) span img {
+  padding-top: 2px;
+}
+.footer-item:nth-child(2) div > p:nth-child(3) span img {
+  padding-top: 3px;
+}
+.footer-item:nth-child(2) div > p:nth-child(4) span img {
+  padding-top: 4px;
+}
+.footer-item:nth-child(2) div > p:nth-child(5) span img {
+  padding-top: 2px;
+}
+.footer-item:nth-child(2) div > p:nth-child(6) span img {
+  padding-top: 5px;
+}
+.main-gray {
+  background-color: #f4f4f4;
+  padding: 30px 0;
+}
+.member-unit {
+  width: 1000px;
+  margin: 0 auto;
+}
+.divide {
+  height: 1px;
+  background-color: #cccccc;
+  margin: 30px 0 16px;
+}
+.form-unit {
+  padding: 10px 0;
+  zoom: 1;
+}
+.form-unit:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+h4.form-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 400;
+  padding: 15px 0 20px;
+}
+h4.form-title span.fu {
+  font-size: 14px;
+  color: #666666;
+  display: block;
+}
+.form-item {
+  padding: 10px 0;
+  font-size: 14px;
+  zoom: 1;
+}
+.form-item:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.form-item .form-item-label {
+  width: 80%;
+  margin: 0 auto;
+  zoom: 1;
+}
+.form-item .form-item-label:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.form-item .form-item-label .unit-xinxi {
+  width: 55%;
+  margin-left: 18px;
+  float: left;
+}
+.form-item .form-item-label .unit-xinxi textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  width: 100%;
+  height: auto;
+  min-height: 86px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+}
+.form-item .form-item-label .unit-xinxi p {
+  font-size: 14px;
+  line-height: 22px;
+  padding: 4px 0;
+}
+.form-item .form-item-label .unit-xinxi a.file {
+  display: block;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+  background: url(http://www.cwea.org.cn/images/bg-file.png) 0 0 no-repeat;
+}
+.form-item .form-item-label .unit-xinxi a.file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+.form-item .form-item-label h4.right {
+  margin-left: 18px;
+  float: left;
+  width: 55%;
+  font-size: 16px;
+  line-height: 40px;
+}
+.form-item .form-item-label p.right {
+  margin-left: 18px;
+  float: left;
+  width: 55%;
+  line-height: 40px;
+}
+.form-item .form-item-label .add-people {
+  float: left;
+  margin: 10px 0 8px 18px;
+  width: 55%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 20px;
+  text-align: center;
+  color: #333f50;
+  background-color: #dadde0;
+  border: 1px solid #737f91;
+  cursor: pointer;
+}
+.form-item label.form-item-label {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  cursor: pointer;
+  zoom: 1;
+}
+.form-item label.form-item-label:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.form-item label.form-item-label input {
+  float: left;
+  margin-left: 18px;
+  padding: 9px 20px;
+  width: 50%;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #cccccc;
+}
+.form-item label.form-item-label .short {
+  float: left;
+  width: 26%;
+  padding-left: 32px;
+  zoom: 1;
+}
+.form-item label.form-item-label .short:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.form-item label.form-item-label .short span {
+  float: left;
+  display: block;
+  line-height: 40px;
+}
+.form-item label.form-item-label .short input {
+  margin-left: 0;
+  width: 40%;
+}
+.form-item span.left {
+  display: block;
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 40px;
+  text-align: right;
+}
+.form-item fieldset.checkboxes {
+  float: left;
+  margin-left: 18px;
+  width: 55%;
+  zoom: 1;
+}
+.form-item fieldset.checkboxes:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.form-item fieldset.checkboxes .label-check {
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+  line-height: 40px;
+  position: relative;
+  padding-left: 24px;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-image: url(http://www.cwea.org.cn/images/bg-checkbox-0.png);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  overflow: hidden;
+  cursor: pointer;
+}
+.form-item fieldset.checkboxes .label-check.c-on {
+  background-image: url(http://www.cwea.org.cn/images/bg-checkbox-1.png);
+}
+.form-item fieldset.checkboxes .label-check span {
+  display: inline-block;
+}
+.form-item fieldset.checkboxes .label-check input {
+  position: absolute;
+  left: -99999%;
+}
+.xuanyuan-table {
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+.xuanyuan-table table {
+  overflow: hidden;
+  font-size: 12px;
+}
+.xuanyuan-table table tr th,
+.xuanyuan-table table tr td {
+  padding: 4px 6px 4px 12px;
+  text-align: left;
+}
+.xuanyuan-table table tr th {
+  background-color: #737f91;
+  color: #ffffff;
+  line-height: 30px;
+}
+.xuanyuan-table table tr td {
+  line-height: 30px;
+  border-bottom: 1px solid #999999;
+}
+.xuanyuan-table table tr td span.delete {
+  color: #e64646;
+  cursor: pointer;
+}
+.form-submit {
+  width: 500px;
+  height: 58px;
+  margin: 40px auto 50px;
+  background-color: #c39831;
+  color: #ffffff;
+  line-height: 58px;
+  text-align: center;
+}
+.form-submit a {
+  display: block;
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 200px;
+}
+.unit-form-down {
+  padding: 30px 0 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  zoom: 1;
+}
+.unit-form-down:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.unit-form-down .down {
+  margin-right: 60px;
+  display: inline-block;
+}
+.article-title {
+  padding: 20px 0;
+}
+.article-title h3 {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 600;
+  padding: 4px 0;
+}
+.article-title h3 span {
+  display: block;
+  color: #999999;
+  font-size: 18px;
+  font-weight: 300;
+}
+.article-title span.green {
+  color: #009e3b;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 36px;
+  padding: 0 6px;
+  display: inline-block;
+}
+.article-title-second {
+  padding: 24px 0 14px;
+  text-align: center;
+  background-image: url(http://www.cwea.org.cn/images/title-second-bg.png);
+  background-position: 0 50px;
+  background-repeat: repeat-x;
+}
+.article-title-second h4 {
+  font-size: 20px;
+  line-height: 36px;
+  padding: 10px 16px;
+  display: inline-block;
+  background-color: #ffffff;
+}
+.article-title-second p {
+  text-align: center;
+  color: #666666;
+}
+.union-yewu-img-block {
+  padding: 20px 0;
+  zoom: 1;
+}
+.union-yewu-img-block:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.union-yewu-img-block img {
+  float: left;
+  display: block;
+}
+.union-yewu-img-block img:nth-child(2) {
+  padding: 0 35px;
+}
+.union-yewu-img-block img:nth-child(4) {
+  padding: 30px 0 0;
+}
+.union-zhuxi {
+  zoom: 1;
+}
+.union-zhuxi:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.union-zhuxi .item {
+  width: 480px;
+  height: 120px;
+  position: relative;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.union-zhuxi .item:nth-child(1)
+{
+  background-image: url(http://www.cwea.org.cn/images/union-zhuxi-bg-left.jpg);
+}
+
+.union-zhuxi .item:nth-child(2)
+{
+  background-image: url(http://www.cwea.org.cn/images/union-zhuxi-bg-right.jpg);
+}
+
+.union-zhuxi .item:after {
+  display: none;
+  width: 34px;
+  height: 100%;
+  display: block;
+  background: url(http://www.cwea.org.cn/images/zhuxi-img-right.png) 0 0 no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.union-zhuxi .item div {
+  display: none;
+  width: 360px;
+  height: 80px;
+  border: 2px solid #bf9000;
+  margin: 20px 0 0 46px;
+}
+.union-zhuxi .item div h4 {
+  padding: 14px 20px 0 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #bf9000;
+}
+.union-zhuxi .item div p {
+  padding: 0 20px 0 20px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #bf9000;
+  font-weight: bold;
+}
+.union-zhuxi .item div p span {
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 6px;
+  font-weight: 600;
+}
+.union-zhuxi .item div p i {
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 6px;
+}
+.union-zhuxi .item:nth-child(2) {
+  float: right;
+}
+.union-zuzhichengyuan {
+  padding: 10px 0;
+  overflow: hidden;
+}
+.union-zuzhichengyuan-item {
+  padding: 10px 0 20px;
+  margin-bottom: 20px;
+  background-color: #f9f4e9;
+}
+.union-zuzhichengyuan-item h3 {
+  font-size: 22px;
+  padding-left: 378px;
+  text-align: left;
+}
+.union-zuzhichengyuan-item h3 span {
+  color: #c59545;
+  font-size: 16px;
+  padding-left: 18px;
+}
+.union-zuzhichengyuan-item p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  text-align: center;
+}
+p.paixu {
+  color: #666666;
+  font-size: 12px;
+  line-height: 26px;
+  padding: 2px 0;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.union-guwen {
+  margin-bottom: 15px;
+  zoom: 1;
+}
+.union-guwen:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.union-guwen-item {
+  float: left;
+  width: 60px;
+  padding: 2px 20px 2px 0;
+  font-size: 16px;
+  line-height: 28px;
+}
+.member-block {
+  position: fixed;
+  right: 50%;
+  margin-right: 530px;
+  top: 430px;
+  width: 110px;
+  background-color: #f4f4f4;
+}
+.member-block-item {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+}
+.member-block-item:hover,
+.member-block-item.on {
+  background-color: #c39831;
+  color: #ffffff;
+  border-bottom-color: #c39831;
+}
+.member-qiyehuiyuan {
+  padding: 6px 0 20px;
+}
+.member-qiyehuiyuan li {
+  zoom: 1;
+  font-size: 14px;
+  line-height: 22px;
+}
+.member-qiyehuiyuan li:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.member-qiyehuiyuan li p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: left;
+  padding: 4px 0;
+  width: 33%;
+}
+.main-gray .article-title-second h4 {
+  background-color: #f4f4f4;
+}
+.magazine-down-nav {
+  padding: 16px 0 0;
+  height: 40px;
+  text-align: center;
+}
+
+.magazine-down-nav .item {
+  display: inline-block;
+  min-width: 80px;
+  height: 40px;
+  margin: 0 10px;
+  padding: 0 20px;
+  line-height: 40px;
+  font-size: 24px;
+  color: #666666;
+  position: relative;
+}
+.magazine-down-nav .item span {
+  display: block;
+  width: 21px;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  margin-left: -15px;
+}
+.magazine-down-nav .item.on,
+.magazine-down-nav .item:hover {
+  background-color: #f49800;
+  color: #ffffff;
+}
+.magazine-down-nav .item.on span,
+.magazine-down-nav .item:hover span {
+  background: url(http://www.cwea.org.cn/images/nav-arrow.png) center top no-repeat;
+}
+
+.magazine-down-main {
+  padding: 10px 0;
+  margin-right: -40px;
+  zoom: 1;
+}
+.magazine-down-main:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.magazine-down-main-item {
+  float: left;
+  width: 220px;
+  margin: 16px 40px 20px 0;
+}
+.magazine-down-main-item > img {
+  display: block;
+  width: 200px;
+  height: 272px;
+}
+.magazine-down-main-item p {
+  height: 22px;
+  position: relative;
+}
+.magazine-down-main-item p span {
+  font-size: 12px;
+  display: block;
+  line-height: 22px;
+}
+.magazine-down-main-item p a {
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 30px;
+  right: 0;
+  bottom: 0;
+}
+.magazine-down-main-item p a > img {
+  display: block;
+}
+.magazine-about {
+  padding: 30px 0 10px;
+}
+.magazine-block {
+  margin: 0 -15px 16px 0;
+  zoom: 1;
+  /* Safari */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.magazine-block:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.magazine-block-item {
+  width: 210px;
+  padding: 22px;
+  margin-right: 15px;
+  position: relative;
+  overflow: visible;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  border: 2px solid #e0e0e0;
+}
+.magazine-block-item h4.title {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 8px 0 14px;
+}
+.magazine-block-item h4.title span {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 16px;
+}
+.magazine-block-item h5.title-second {
+  font-size: 16px;
+  color: #57819e;
+  line-height: 28px;
+  padding: 4px 0;
+}
+.magazine-block-item p.list {
+  zoom: 1;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 2px 0;
+}
+.magazine-block-item p.list:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.magazine-block-item p.list span.left {
+  display: block;
+  width: 60px;
+  padding-right: 20px;
+  background: url(http://www.cwea.org.cn/images/arrow-orange.png) 88% center no-repeat;
+  font-weight: bold;
+  float: left;
+  color: #c39831;
+  font-size: 14px;
+}
+.magazine-block-item p.list span.right {
+  float: left;
+  width: 330px;
+}
+.magazine-block-item p.img {
+  overflow: hidden;
+}
+.magazine-block-item p.img img {
+  display: block;
+  widows: 100%;
+}
+.magazine-block-item p.txt {
+  font-size: 12px;
+  line-height: 20px;
+}
+.magazine-block-item p.txt a {
+  color: #217cb9;
+}
+.magazine-block-item:before {
+  content: ' ';
+  display: block;
+  width: 8px;
+  height: 24px;
+  position: absolute;
+  top: 34px;
+  left: -2px;
+  background-color: #94c34a;
+}
+.magazine-block-item.item-qianlan,
+.magazine-block-item.item-gray,
+.magazine-block-item.item-bg,
+.magazine-block-item.item-lv {
+  border: 0;
+  padding: 24px;
+}
+.magazine-block-item.item-qianlan:before,
+.magazine-block-item.item-gray:before,
+.magazine-block-item.item-bg:before,
+.magazine-block-item.item-lv:before {
+  left: 0;
+}
+.magazine-block-item.item-gray {
+  background-color: #f0f0f0;
+}
+.magazine-block-item.item-gray:before {
+  background-color: #c39831;
+}
+.magazine-block-item.item-lv {
+  background-color: #89aa95;
+  color: #ffffff;
+}
+.magazine-block-item.item-lv:before {
+  background-color: #648d73;
+}
+.magazine-block-item.item-qianlan {
+  background-color: #7fa0b6;
+  color: #ffffff;
+}
+.magazine-block-item.item-qianlan:before {
+  background-color: #57819e;
+}
+.magazine-block-item.item-bg {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(http://www.cwea.org.cn/images/magazine-about-item-bg.jpg);
+  background-position: center bottom;
+  background-color: #a2c7db;
+}
+.magazine-block-item.item-bg:before {
+  background-color: #57819e;
+}
+.magazine-block-item-pinpai {
+  padding: 20px 0 14px;
+  /* Safari */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.magazine-block-item-pinpai .item h5 {
+  height: 25px;
+  margin: 4px 0;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 300;
+  background-color: #a6c5b1;
+}
+.magazine-block-item-pinpai .item p {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 6px 0;
+}
+.magazine-block-item-pinpai .item p i {
+  font-style: italic;
+  font-size: 14px;
+  color: #c39831;
+  font-weight: bold;
+}
+.publish-block {
+  padding: 30px 0 16px;
+  zoom: 1;
+}
+.publish-block:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.publish-block .publish-item:last-child {
+  float: right;
+  margin-left: 50px;
+}
+.publish-block .publish-item:first-child {
+  float: left;
+  margin-right: 50px;
+}
+.publish-item {
+  width: 360px;
+  margin-top: 14px;
+}
+.publish-item-img {
+  display: block;
+  overflow: hidden;
+  height: 246px;
+  padding-bottom: 10px;
+  position: relative;
+  background: url(http://www.cwea.org.cn/images/publish-bg.png) 0 0 repeat-x;
+}
+.publish-item-img img {
+  display: block;
+  margin: 0 auto;
+}
+.publish-item-title {
+  padding: 4px 0 6px;
+  font-size: 16px;
+  color: #c39831;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 300;
+}
+.publish-item-title span {
+  font-size: 12px;
+}
+.publish-item-txt {
+  font-size: 12px;
+  color: #333333;
+  line-height: 22px;
+}
+.member-quanli-yiwu.industry-data {
+  margin: 30px 0 30px;
+}
+.member-quanli-yiwu.industry-data .member-quanli-yiwu-item:before {
+  content: '特别声明';
+}
+.member-quanli-yiwu.industry-data .member-quanli-yiwu-item ul li {
+  height: auto;
+}
+.member-quanli-yiwu.industry-data .member-quanli-yiwu-item ul li a {
+  white-space: normal;
+  padding-bottom: 4px;
+}
+.member-quanli-yiwu.industry-data .member-quanli-yiwu-item ul li a span:last-child {
+  float: left;
+  width: 660px;
+}
+.article-title-third {
+  padding: 4px 0;
+}
+.article-title-third h3 {
+  margin: 10px 0 10px;
+  font-size: 24px;
+  line-height: 40px;
+  padding: 5px 0;
+  text-align: center;
+  position: relative;
+}
+.article-title-third h3 span.bg {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -13px;
+  width: 26px;
+  height: 2px;
+  background-color: #009e3b;
+}
+.article-title-third h3 span.bg-lan {
+  background-color: #8cb8d3;
+}
+
+.industry-data-article-txt
+{
+  max-width: 820px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+
+.industry-data-article-img
+{
+  overflow: hidden;
+  width: 1000px;
+  padding: 14px 0;
+}
+
+.industry-data-article-img>img
+{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+
+.industry-data-introduce {
+  width: 764px;
+  margin: 0 auto;
+  padding: 4px 0 14px;
+}
+.industry-data-introduce li {
+  zoom: 1;
+}
+.industry-data-introduce li:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.industry-data-introduce li span {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 20px;
+  background-color: #009e3b;
+  font-weight: 400;
+}
+.industry-data-introduce li p {
+  width: 710px;
+  float: left;
+  line-height: 20px;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.industry-data-nav
+{
+  display: none;
+  position: fixed;
+  right: 50%;
+  margin-right: 530px;
+  top: 360px;
+  width: 150px;
+}
+
+.industry-data-nav-item
+{
+  display: block;
+  padding-right: 10px;
+  margin-bottom: 3px;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 28px;
+  text-align: right;
+  background-color: #808792;
+}
+
+.industry-data-nav-item:hover,
+.industry-data-nav-item.on
+{
+  background-color: #009e3b;
+}
+
+
+.industry-data-content {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.industry-data-head {
+  width: 764px;
+  padding: 10px 0;
+  margin: 0 auto;
+  zoom: 1;
+}
+.industry-data-head:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.industry-data-head .item {
+  float: left;
+}
+.industry-data-head .item > img {
+  display: block;
+  max-width: 100%;
+}
+.industry-data-head .item p.txt {
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+.industry-data-head .item p.btn {
+  padding: 2px 0;
+  line-height: 20px;
+  height: 20px;
+  text-align: center;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+.industry-data-head .item p.btn span {
+  display: inline-block;
+  color: #000000;
+  padding-left: 20px;
+  background-position: 2px center;
+  background-repeat: no-repeat;
+  background-image: url(http://www.cwea.org.cn/images/arrow-black-down.png);
+}
+.industry-data-head .item p.btn:hover,
+.industry-data-head .item p.btn.on {
+  background-color: #c39831;
+}
+.industry-data-head .item p.btn:hover span,
+.industry-data-head .item p.btn.on span {
+  color: #ffffff;
+  background-image: url(http://www.cwea.org.cn/images/arrow-white-up.png);
+}
+.industry-data-body {
+  display: none;
+  padding: 14px 0;
+}
+.industry-data-body-item {
+  zoom: 1;
+  padding: 20px 0;
+}
+.industry-data-body-item:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.industry-data-body-item img {
+  float: left;
+  display: block;
+}
+.industry-project-title {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 6px 0 6px 60px;
+}
+ul.industry-project-list {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+ul.industry-project-list li {
+  zoom: 1;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+}
+ul.industry-project-list li:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+ul.industry-project-list li h5 {
+  float: left;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0 20px 0 60px;
+}
+ul.industry-project-list li h5:first-child {
+  width: 576px;
+  background-color: #5a9e73;
+}
+ul.industry-project-list li h5:last-child {
+  width: 264px;
+  background-color: #3e3e3e;
+}
+ul.industry-project-list li p {
+  float: left;
+  padding-left: 60px;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: 40px;
+}
+ul.industry-project-list li p:first-child {
+  width: 576px;
+}
+ul.industry-project-list li p:last-child {
+  width: 263px;
+  border-left: 1px solid #ebebeb;
+}
+ul.industry-project-list li:nth-child(odd) p:first-child {
+  background-color: #e5f1ea;
+}
+ul.industry-project-list li:nth-child(odd) p:last-child {
+  background-color: #ebebeb;
+}
+.mask {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.research-project-title {
+  margin-bottom: 50px;
+}
+.research-project-title .member-p {
+  margin: 10px 0 20px;
+  background: url(http://www.cwea.org.cn/images/research-project-bg.png) center center no-repeat;
+}
+.research-project-block {
+  zoom: 1;
+  margin: 30px 0 50px;
+  padding-top: 23px;
+  height: 397px;
+  position: relative;
+}
+.research-project-block:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.research-project-block .img,
+.research-project-block .back,
+.research-project-block .task,
+.research-project-block .result,
+.research-project-block .yiyi {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+}
+.research-project-block .img p.view,
+.research-project-block .back p.view,
+.research-project-block .task p.view,
+.research-project-block .result p.view,
+.research-project-block .yiyi p.view {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.research-project-block .img {
+  width: 330px;
+  height: 420px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.research-project-block .img p {
+  position: absolute;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 32px;
+  font-weight: 600px;
+  left: 44px;
+  bottom: 50px;
+}
+.research-project-block .back {
+  width: 420px;
+  height: 205px;
+  border-top: 2px solid #e0e0e0;
+  padding: 20px;
+  position: absolute;
+  left: 330px;
+  top: 23px;
+}
+.research-project-block .back .title {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+.research-project-block .back .txt {
+  font-size: 12px;
+  color: #333333;
+  line-height: 20px;
+  height: 120px;
+  overflow: hidden;
+}
+.research-project-block .result {
+  background-color: rgba(101, 152, 120, 0.7);
+  width: 250px;
+  height: 205px;
+  padding: 20px 20px 20px 30px;
+  color: #ffffff;
+  position: absolute;
+  right: 0;
+  top: 23px;
+}
+.research-project-block .result .title {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+.research-project-block .result .txt {
+  font-size: 12px;
+  line-height: 20px;
+  overflow: hidden;
+  padding-bottom: 4px;
+}
+.research-project-block .task {
+  width: 250px;
+  height: 192px;
+  padding: 20px 20px 20px 74px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 280px;
+  bottom: 0;
+}
+.research-project-block .task .title {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+.research-project-block .task .txt {
+  font-size: 12px;
+  line-height: 20px;
+  overflow: hidden;
+  padding-bottom: 4px;
+  padding-left: 18px;
+  margin-left: -18px;
+  position: relative;
+}
+.research-project-block .task .txt span.disc {
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 18px;
+  position: absolute;
+  left: 2px;
+}
+.research-project-block .task .txt b {
+  font-weight: bold;
+}
+.research-project-block .yiyi {
+  width: 470px;
+  height: 192px;
+  padding: 20px 34px;
+  color: #333333;
+  background-color: rgba(235, 235, 235, 0.5);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.research-project-block .yiyi .title {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 4px;
+  color: #000000;
+}
+.research-project-block .yiyi p.intro {
+  font-size: 12px;
+  line-height: 22px;
+  overflow: hidden;
+}
+.research-project-block .yiyi .txt {
+  font-size: 12px;
+  line-height: 22px;
+  overflow: hidden;
+  padding-left: 18px;
+  position: relative;
+}
+.research-project-block .yiyi .txt span.disc {
+  font-weight: bold;
+  font-size: 14px;
+  color: #009e3b;
+  line-height: 20px;
+  position: absolute;
+  left: 2px;
+}
+.research-project-block .yiyi .txt b {
+  font-weight: bold;
+}
+
+/* 产业研究-研究项目 */
+.research-project-neirong
+{
+  display: none;
+  width: 1000px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -500px;
+  background-color: #ffffff;
+  z-index: 999;
+}
+
+.research-project-neirong
+{
+  height: 500px;
+  margin-top: -250px;
+}
+
+.research-project-neirong-item
+{
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.research-project-neirong-item h4
+{
+  color: #000;
+  padding: 4px 0 30px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.research-project-neirong-item p
+{
+  font-size: 12px;
+  line-height: 22px;
+  text-indent: 2em;
+  padding-bottom: 22px;
+}
+
+.research-project-neirong-item p.ul-p
+{
+  text-indent: 0;
+  padding-bottom: 10px;
+}
+
+.research-project-neirong-item ul
+{
+  padding: 0 0 10px 16px;
+}
+
+.research-project-neirong-item ul li
+{
+  padding-left: 2px;
+  font-size: 12px;
+  line-height: 22px;
+  list-style-type: decimal;
+}
+
+
+
+
+/* 委员会发展历程 */
+.union-histoty {
+  background-color: #e6f1d5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.union-histoty-btn {
+  width: 60px;
+  height: 110px;
+  color: #94c34a;
+  font-size: 42px;
+  text-align: center;
+  line-height: 60px;
+  writing-mode: vertical-lr;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.union-histoty-btn.prev {
+  /*前边显示*/
+  order: -1;
+  margin-right: 20px;
+  padding-right: 22px;
+  background-image: url(http://www.cwea.org.cn/images/arrow-history-prev.png);
+  background-position: right center;
+}
+.union-histoty-btn.next {
+  margin-left: 20px;
+  padding-left: 22px;
+  background-image: url(http://www.cwea.org.cn/images/arrow-history-next.png);
+  background-position: left center;
+}
+
+.union-histoty-view {
+  overflow: hidden;
+  width: 1000px;
+  background-color: #94c34a;
+}
+
+.union-histoty-view-content {
+  /*transform: translateX(30px);*/
+  padding: 10px 0 0;
+  background-image: url(http://www.cwea.org.cn/images/history-bg.png);
+  background-repeat: repeat-x;
+  /* 左右 上下 left bottom*/
+  background-position: -70px bottom;
+  /* Safari */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: flex-end;
+  transition: transform 1.5s cubic-bezier(0.42, 0, 0, 1.15);
+}
+
+/* 历程单元 */
+.union-histoty-view-item {
+  position: relative;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 4px;
+  /* Safari */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+}
+.union-histoty-view-item .left {
+  width: 44px;
+  padding-bottom: 21px;
+  background: url(http://www.cwea.org.cn/images/history-fengche.png) center bottom repeat-y;
+}
+.union-histoty-view-item .left .img {
+  position: relative;
+  left: -1px;
+  transform: rotate(0deg);
+  width: 44px;
+  height: 39px;
+  background: #94c34a url(http://www.cwea.org.cn/images/history-fengche-icon-2.png) center top no-repeat;
+  transition: transform 1.5s linear;
+}
+.union-histoty-view-item .left .img:hover {
+  transform: rotate(360deg);
+}
+.union-histoty-view-item .right {
+  width: 164px;
+  padding: 2px 14px 21px;
+  text-align: left;
+}
+.union-histoty-view-item .right h5.title {
+  font-size: 36px;
+  color: #ffffff;
+  line-height: 44px;
+  padding: 2px 0;
+  margin: 20px 0;
+}
+.union-histoty-view-item .right p.txt {
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+
+
+.news {
+  overflow: hidden;
+  padding: 10px 0;
+  zoom: 1;
+}
+.news:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.news-adver {
+  width: 270px;
+  float: right;
+}
+.news-adver-item {
+  height: 310px;
+  margin-bottom: 20px;
+  background-color: #eeeeee;
+}
+.news-adver-item h5 {
+  font-size: 16px;
+  padding: 20px 30px;
+  line-height: 30px;
+}
+.news-adver-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.news-adver-item a > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.news-adver-item .weixin > img {
+  display: block;
+  padding: 32px 0 10px;
+  margin: 0 auto;
+}
+.news-adver-item .weixin p {
+  padding: 4px 0;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+}
+.news-adver-item .weixin p span {
+  display: block;
+}
+.news-adver-item .weixin p span:last-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+.news-main {
+  float: left;
+  width: 690px;
+  padding-right: 19px;
+  border-right: 1px solid #cccccc;
+}
+.news-main .view-more {
+  display: block;
+  height: 30px;
+  background-color: #dee6d1;
+  background-image: url(http://www.cwea.org.cn/images/news-icon-yezi.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  clear: both;
+}
+.news-txt h4 {
+  padding: 2px 0;
+  font-size: 20px;
+  color: #000000;
+  line-height: 26px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news-txt p.detail {
+  margin: 4px 0;
+  font-size: 12px;
+  line-height: 18px;
+  height: 54px;
+  color: #666666;
+  overflow: hidden;
+}
+.news-lastest-top {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  zoom: 1;
+}
+.news-lastest-top:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.news-lastest-top .img {
+  width: 240px;
+  height: 200px;
+  float: left;
+  margin-right: 28px;
+}
+.news-lastest-top .img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.news-lastest-top .news-txt {
+  float: left;
+  width: 420px;
+}
+.news-lastest-top .news-txt h4 {
+  white-space: normal;
+  height: 52px;
+  max-height: 52px;
+}
+.news-lastest-top .news-txt p.time {
+  font-size: 14px;
+  color: #009e3b;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.news-lastest-top .news-txt p.detail {
+  height: 54px;
+}
+.news-content-zhuanti .news-lastest-detail,
+.news-lastest .news-lastest-detail {
+  overflow: hidden;
+}
+.news-content-zhuanti .news-lastest-detail h3.title,
+.news-lastest .news-lastest-detail h3.title {
+  padding: 6px 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+.news-content-zhuanti .news-lastest-detail p.info,
+.news-lastest .news-lastest-detail p.info {
+  padding: 4px 0;
+  text-align: center;
+  line-height: 22px;
+  font-size: 12px;
+}
+.news-content-zhuanti .news-lastest-detail p.info span,
+.news-lastest .news-lastest-detail p.info span {
+  padding: 0 10px;
+  color: #009e3b;
+  font-weight: 400;
+}
+.news-content-zhuanti .news-lastest-detail .article,
+.news-lastest .news-lastest-detail .article {
+  padding: 30px 20px 0;
+  overflow: hidden;
+}
+.news-content-zhuanti .news-lastest-detail .article p,
+.news-lastest .news-lastest-detail .article p {
+  font-size: 14px;
+  line-height: 22px;
+  padding-bottom: 22px;
+}
+.news-content {
+  overflow: hidden;
+}
+.news-content-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  zoom: 1;
+}
+.news-content-item:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.news-content-item:last-child {
+  border-bottom: 0;
+}
+.news-content-item .detail-img {
+  float: left;
+  width: 345px;
+  height: 190px;
+}
+.news-content-item .detail-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.news-content-item p.time {
+  float: left;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  color: #333333;
+  background-color: #eeeeee;
+}
+.news-content-item p.time span {
+  display: block;
+  font-size: 16px;
+}
+.news-content-item p.time span:first-child {
+  padding-top: 12px;
+  color: #009e3b;
+  font-size: 30px;
+  line-height: 40px;
+}
+.news-content-item .news-txt {
+  float: left;
+  margin-left: 25px;
+  width: 575px;
+}
+.news-content-zhuanti .news-content-item .news-txt {
+  width: 320px;
+}
+.news-content-zhuanti .news-content-item .news-txt h4 {
+  height: 52px;
+  white-space: normal;
+  margin-bottom: 22px;
+}
+.news-content-zhuanti .news-content-item .news-txt p.detail {
+  height: 90px;
+}
+.news-vedio {
+  margin-right: -50px;
+  zoom: 1;
+}
+.news-vedio:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.news-vedio p.view-more {
+  margin-right: 50px;
+}
+.news-vedio .news-content-detail {
+  width: 690px;
+  height: 500px;
+  /*background-color: rgba(0, 0, 0, 0.2);*/
+}
+.news-vedio-item {
+  overflow: hidden;
+  width: 320px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.news-vedio-item-main {
+  height: 200px;
+  background-image: url(http://www.cwea.org.cn/images/news-vedio-bg_03.png);
+  background-position: 0 0;
+  background-repeat: repeat-x;
+}
+.news-vedio-item-main img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.news-vedio-item-title {
+  height: 30px;
+  padding: 0 20px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: #f4f4f4;
+}
+.news-vedio-item a.btn-begin {
+  background: url(http://www.cwea.org.cn/images/news-vedio-begin.png) center 45% no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9;
+}
+.photo-event-introduce {
+  padding: 30px 0 20px;
+  zoom: 1;
+}
+.photo-event-introduce:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.photo-event-introduce .left {
+  width: 390px;
+  float: left;
+}
+.photo-event-introduce .left h4.title {
+  font-size: 30px;
+  line-height: 42px;
+  padding: 4px 0;
+  margin-bottom: 10px;
+}
+.photo-event-introduce .left p.intro {
+  margin: 10px 0 20px;
+  font-size: 14px;
+  line-height: 22px;
+  zoom: 1;
+}
+.photo-event-introduce .left p.intro:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.photo-event-introduce .left p.intro:first-child {
+  height: 110px;
+}
+.photo-event-introduce .left p.intro b {
+  font-weight: bold;
+}
+.photo-event-introduce .left p.intro a {
+  margin-top: 2px;
+  display: block;
+  float: right;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #c39831;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.photo-event-introduce .right {
+  width: 390px;
+  float: right;
+}
+.photo-event-introduce .right img {
+  display: block;
+  width: 100%;
+}
+.event-photo-liucheng {
+  margin-right: -20px;
+  padding: 10px 0 20px;
+  zoom: 1;
+}
+.event-photo-liucheng:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.event-photo-liucheng-item {
+  width: 260px;
+  padding-right: 20px;
+  float: left;
+  background-image: url(http://www.cwea.org.cn/images/photo-liucheng-bg-0.png);
+  background-position: 259px 0;
+  background-repeat: no-repeat;
+}
+.event-photo-liucheng-item h4.title {
+  width: 260px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #333f50;
+}
+.event-photo-liucheng-item .content {
+  padding: 15px 25px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.event-photo-liucheng-item .content a {
+  display: inline-block;
+  color: #000000;
+  padding-top: 10px;
+}
+.event-photo-liucheng-item:last-child {
+  width: 258px;
+  background-image: url(http://www.cwea.org.cn/images/photo-liucheng-bg-1.png);
+}
+.event-photo-jiang {
+  zoom: 1;
+  padding: 10px 0 18px;
+}
+.event-photo-jiang:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.event-photo-jiang-item {
+  float: left;
+  height: 218px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+}
+.event-photo-jiang-item h5 {
+  font-size: 24px;
+  text-align: center;
+  line-height: 32px;
+  padding: 72px 0 10px;
+}
+.event-photo-jiang-item h5 span {
+  display: block;
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+}
+.event-photo-jiang-item p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+  line-height: 22px;
+}
+.event-photo-jiang-item p span {
+  display: block;
+  font-weight: bold;
+  color: #c39831;
+  line-height: 20px;
+}
+.event-photo-jiang-item:first-child {
+  padding-right: 8px;
+  width: 198px;
+  background-image: url(http://www.cwea.org.cn/images/event-photo-jiang_14.png);
+}
+.event-photo-jiang-item:nth-child(2) {
+  padding: 0 10px 0 12px;
+  width: 215px;
+  background-image: url(http://www.cwea.org.cn/images/event-photo-jiang_15.png);
+}
+.event-photo-jiang-item:nth-child(3) {
+  padding: 0 13px 0 7px;
+  width: 210px;
+  background-image: url(http://www.cwea.org.cn/images/event-photo-jiang_16.png);
+}
+.event-photo-jiang-item:last-child {
+  padding-left: 7px;
+  width: 197px;
+  background-image: url(http://www.cwea.org.cn/images/event-photo-jiang_17.png);
+}
+.pingxuan {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #f4f4f4;
+  clear: both;
+}
+
+.event-photo-jiang-xinshang {
+  margin: 10px -50px;
+  position: relative;
+}
+
+/* 摄影作品获奖 */
+.event-photo-award
+{
+  width: 820px;
+}
+
+.event-photo-award .swiper-slide
+{
+  height: 400px;
+}
+
+.event-photo-award-item,
+.event-photo-award-item-img,
+.event-photo-award-item-mask
+{
+  width: 260px;
+  height: 190px;
+  /* overflow: hidden; */
+}
+
+.event-photo-award-item:first-child
+{
+  margin-bottom: 20px;
+}
+
+.event-photo-award-item
+{
+  position: relative;
+}
+
+.event-photo-award-item-img>img
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.event-photo-award-item-mask
+{
+  display: none;
+  background-color: rgba(125, 136, 152, 0.6);
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.event-photo-award-item.on .event-photo-award-item-mask,
+.event-photo-award-item:hover .event-photo-award-item-mask
+{
+  display: block;
+}
+
+.event-photo-award-item-mask h4
+{
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 0 15px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7)
+}
+
+.event-photo-award-item-mask h4>span
+{
+  display: block;
+  font-size: 14px;
+}
+
+.event-photo-award-item-mask p
+{
+  font-size: 12px;
+  line-height: 24px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.event-photo-jiang-xinshang .swiper-button-next,
+.event-photo-jiang-xinshang .swiper-button-prev
+{
+  width: 22px;
+  height: 38px;
+  margin-top: -19px;
+  background-size: auto;
+}
+
+.event-photo-jiang-xinshang .swiper-button-prev
+{
+  left: 4px;
+  background-image: url(http://www.cwea.org.cn/images/event-photo-arrow-0.png);
+}
+
+.event-photo-jiang-xinshang .swiper-button-next
+{
+  right: 4px;
+  background-image: url(http://www.cwea.org.cn/images/event-photo-arrow-1.png);
+}
+
+
+.event-gongyi {
+  overflow: hidden;
+  height: auto;
+}
+
+.banner-event-fengdianchang
+{
+  height: 855px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(http://www.cwea.org.cn/images/banner-img-fengdianchang.jpg);
+}
+
+.banner-photo
+{
+  height: auto;
+}
+
+.banner-event-photo
+{
+  height: 650px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(http://www.cwea.org.cn/images/banner-events-photo.jpg);
+}
+
+.banner-event-photo .banner-title
+{
+  top: 28%;
+  font-size: 46px;
+  line-height: 60px;
+}
+
+.banner-event-gongyi
+{
+  height: 650px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(http://www.cwea.org.cn/images/event-gongyi-banner_02.jpg);
+}
+
+.banner.event-gongyi {
+  color: #ffffff;
+}
+.banner.event-gongyi .banner-title {
+  top: 24%;
+  font-size: 46px;
+  line-height: 60px;
+}
+.banner.event-gongyi .banner-title img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.banner.event-gongyi .banner-title span {
+  margin: 28px auto 0;
+  width: 380px;
+  border-top: 1px solid #ffffff;
+  color: #ffffff;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+
+
+.banner-book
+{
+  height: 650px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(http://www.cwea.org.cn/images/book-banner_01.jpg);
+}
+
+.banner.book {
+  color: #ffffff;
+}
+.banner.book .banner-title {
+  top: 24%;
+  font-size: 46px;
+  line-height: 60px;
+}
+.banner.book .banner-title img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.banner.book .banner-title span {
+  margin: 28px auto 0;
+  width: 380px;
+  border-top: 1px solid #ffffff;
+  color: #ffffff;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+
+.event-gongyi-fengdianren {
+  width: 610px;
+  margin: 0 auto;
+  padding: 20px 0 20px;
+  zoom: 1;
+}
+.event-gongyi-fengdianren:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.event-gongyi-fengdianren-intro {
+  clear: both;
+  padding: 10px 0;
+}
+.event-gongyi-fengdianren-intro h4 {
+  font-size: 24px;
+  color: #627692;
+  line-height: 38px;
+  padding: 4px 0;
+  text-align: center;
+}
+.event-gongyi-fengdianren-intro > div {
+  padding: 10px 0;
+  zoom: 1;
+}
+.event-gongyi-fengdianren-intro > div:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.event-gongyi-fengdianren-intro > div p.intro {
+  width: 460px;
+  float: left;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333333;
+}
+.event-gongyi-fengdianren-intro > div a.down {
+  width: 122px;
+  height: 77px;
+  float: right;
+}
+.event-gongyi-fengdianren-shixiang {
+  zoom: 1;
+}
+.event-gongyi-fengdianren-shixiang:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.event-gongyi-fengdianren-shixiang .left,
+.event-gongyi-fengdianren-shixiang .right {
+  width: 50%;
+  float: left;
+}
+.event-gongyi-fengdianren-shixiang .left h4.title,
+.event-gongyi-fengdianren-shixiang .right h4.title {
+  font-size: 16px;
+  color: #627692;
+  line-height: 30px;
+  padding: 10px 0;
+}
+.event-gongyi-fengdianren-shixiang .left p,
+.event-gongyi-fengdianren-shixiang .right p {
+  font-size: 13px;
+  line-height: 24px;
+  zoom: 1;
+}
+.event-gongyi-fengdianren-shixiang .left p:after,
+.event-gongyi-fengdianren-shixiang .right p:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.event-gongyi-fengdianren-shixiang .left p a,
+.event-gongyi-fengdianren-shixiang .right p a {
+  color: #000000;
+}
+.event-gongyi-fengdianren-shixiang .left p b,
+.event-gongyi-fengdianren-shixiang .right p b {
+  width: 70px;
+  float: left;
+}
+.event-gongyi-fengdianren-shixiang .left p span,
+.event-gongyi-fengdianren-shixiang .right p span {
+  width: 230px;
+  float: left;
+}
+.event-gongyi-fengdianren-shixiang .right {
+  width: 35%;
+  margin-left: 15%;
+}
+.banner-fengdianchang-jianjie {
+  width: 820px;
+  height: 380px;
+  padding: 50px 54px 0 290px;
+  position: absolute;
+  left: 50%;
+  margin-left: -410px;
+  top: 9.5%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  background: url(http://www.cwea.org.cn/images/banner-gongyi-img-bg.png) center 0 no-repeat;
+}
+.banner-fengdianchang-jianjie h4.title {
+  font-size: 30px;
+  line-height: 40px;
+  padding: 10px 0;
+  text-align: center;
+}
+.banner-fengdianchang-jianjie p.intro {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 6px 0;
+}
+.banner-fengdianchang-liucheng {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30.409356725%;
+  background: url(http://www.cwea.org.cn/images/event-fengdianchang-lc-bg.png) 0 0 repeat;
+}
+.banner-fengdianchang-liucheng-content {
+  position: absolute;
+  left: 50%;
+  margin-left: -500px;
+  top: 7%;
+  width: 1000px;
+  height: 230px;
+  zoom: 1;
+}
+.banner-fengdianchang-liucheng-content:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.banner-fengdianchang-liucheng .liucheng-title {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 60px;
+  padding-bottom: 10px;
+}
+.banner-fengdianchang-liucheng .liucheng-item {
+  float: left;
+  width: 190px;
+  height: 160px;
+  color: #ffffff;
+  padding-right: 12px;
+  background-image: url(http://www.cwea.org.cn/images/event-fengdianchang-liucheng_03.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.banner-fengdianchang-liucheng .liucheng-item h4.title {
+  padding-top: 5px;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+}
+.banner-fengdianchang-liucheng .liucheng-item p.intro {
+  padding-top: 0;
+  padding-left: 10px;
+  padding-right: 18px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.fengdianchang-top {
+  padding: 30px 0 10px;
+  zoom: 1;
+}
+.fengdianchang-top:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.fengdianchang-top .left {
+  float: left;
+  width: 376px;
+  padding: 0 62px;
+  color: #333333;
+  line-height: 24px;
+  font-size: 14px;
+}
+.fengdianchang-top .right {
+  float: left;
+  width: 370px;
+  padding-left: 66px;
+  border-left: 1px solid #cccccc;
+}
+.fengdianchang-top .right h4.title {
+  height: 30px;
+  padding-left: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 30px;
+  white-space: nowrap;
+  background-color: #333f50;
+}
+.fengdianchang-top .right h4.title span.total {
+  float: right;
+  font-size: 12px;
+  line-height: 30px;
+  padding-right: 20px;
+  background: url(http://www.cwea.org.cn/images/arrow-white-right.png) 86% center no-repeat;
+  cursor: pointer;
+}
+.fengdianchang-top .right p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333333;
+  line-height: 20px;
+}
+.fengdianchang-top .right p b {
+  font-weight: 500;
+  font-size: 13px;
+  color: #000000;
+}
+.fengdianchang-item {
+  padding: 30px 0;
+  border-bottom: 1px solid #cccccc;
+  zoom: 1;
+}
+.fengdianchang-item:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.fengdianchang-item-img {
+  width: 450px;
+  float: left;
+}
+.fengdianchang-item-img-view {
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+.fengdianchang-item-img-view img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.fengdianchang-item-img-box {
+  zoom: 1;
+  overflow: hidden;
+}
+.fengdianchang-item-img-box:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.fengdianchang-item-img-box .img-item {
+  float: left;
+  width: 90px;
+  height: 60px;
+  margin-right: 10px;
+  overflow-x: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.fengdianchang-item-img-box .img-item .img-mask {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  border: 2px solid #c39831;
+}
+.fengdianchang-item-img-box .img-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.fengdianchang-item-txt {
+  float: right;
+  width: 350px;
+}
+.fengdianchang-item-txt h4.title {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.fengdianchang-item-txt .txt {
+  height: 200px;
+  overflow: hidden;
+}
+.fengdianchang-item-txt .txt p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+  padding: 4px 0 10px;
+}
+.fengdianchang-item-txt .list {
+  height: 132px;
+  padding: 4px 0 0;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+  /* Safari */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+}
+.fengdianchang-item-txt .list-main {
+  overflow: hidden;
+}
+.fengdianchang-item-txt .list-main p {
+  height: 24px;
+  width: 86%;
+  padding: 4px 0 4px 34px;
+  position: relative;
+  line-height: 24px;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.fengdianchang-item-txt .list-main p:before {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #6e89af;
+}
+.fengdianchang-item-txt .list-main p:nth-child(1):before {
+  content: '1';
+}
+.fengdianchang-item-txt .list-main p:nth-child(2):before {
+  content: '2';
+}
+.fengdianchang-item-txt .list-main p:nth-child(3):before {
+  content: '3';
+}
+.fengdianchang-item-txt .list-main p:nth-child(4):before {
+  content: '4';
+}
+.fengdianchang-item-txt .list-main p:nth-child(5):before {
+  content: '5';
+}
+.fengdianchang-item-txt .list-main p:nth-child(6):before {
+  content: '6';
+}
+.fengdianchang-item-txt .list-main p:nth-child(7):before {
+  content: '7';
+}
+.fengdianchang-item-txt .list-main p:nth-child(8):before {
+  content: '8';
+}
+.fengdianchang-item-txt .list-main p:nth-child(9):before {
+  content: '9';
+}
+.fengdianchang-item-txt .list-main p:nth-child(10):before {
+  content: '10';
+}
+.fengdianchang-item:last-child {
+  border-bottom: 0;
+}
+
+
+/* 活动详情页面 */
+.banner-event-detail
+{
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+}
+
+
+.events-detail-logo {
+  position: absolute;
+  width: 800px;
+  left: 50%;
+  margin-left: -400px;
+  top: 14%;
+}
+
+.events-detail-logo>img
+{
+  display: block;
+  width: 100%;
+}
+
+
+.nav-event {
+  width: 480px;
+  height: 75px;
+  margin: -40px auto 0;
+  position: relative;
+  z-index: 9;
+  zoom: 1;
+}
+.nav-event:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.nav-event-item {
+  display: block;
+  float: left;
+  width: 120px;
+  text-align: center;
+  line-height: 75px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgba(51, 63, 80, 0.8);
+}
+.nav-event-item:hover {
+  background-color: rgba(195, 152, 49, 0.8);
+}
+.meeting-introduce {
+  padding: 10px 0 20px;
+  zoom: 1;
+}
+.meeting-introduce:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.meeting-introduce .left {
+  width: 290px;
+  height: 160px;
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  text-align: center;
+  /* border: 1px solid #e0e0e0 ; */
+  padding-top: 0;
+}
+.meeting-introduce .left img {
+  display: inline-block;
+}
+.meeting-introduce-main {
+  width: 490px;
+  margin-left: 20px;
+  float: left;
+  font-size: 12px;
+  color: #333333;
+  line-height: 20px;
+}
+.meeting-introduce-btn {
+  width: 172px;
+  float: right;
+  overflow: hidden;
+}
+.meeting-introduce-btn a {
+  display: block;
+  width: 172px;
+  height: 77px;
+  margin-bottom: 10px;
+}
+.meeting-introduce-btn a:last-child {
+  padding-bottom: 0;
+}
+.meeting-result {
+  position: relative;
+  height: 270px;
+  margin: 20px 0;
+  padding-top: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+}
+.meeting-result-img {
+  width: 445px;
+  height: 260px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.meeting-result-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.meeting-result-left {
+  width: 616px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+.meeting-result-left-arrow {
+  height: 22px;
+  padding-top: 9px;
+  cursor: pointer;
+}
+.meeting-result-left-arrow img {
+  display: block;
+  margin: 0 auto;
+}
+.meeting-result-txt {
+  padding: 40px 30px 40px 50px;
+  background: rgba(51, 63, 80, 0.8) url(http://www.cwea.org.cn/images/meeting-result-corner-0.png) 23px 19px no-repeat;
+}
+.meeting-result-txt-main {
+  padding: 0 10px 10px 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  background-image: url(http://www.cwea.org.cn/images/meeting-result-corner-1.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.meeting-result-txt-main p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  height: 110px;
+  overflow: hidden;
+}
+.meeting-result-txt-main p.on {
+  height: 600px;
+  height: auto;
+}
+.meeting-media {
+  margin: 20px 0;
+  padding-bottom: 10px;
+  zoom: 1;
+  border-bottom: 1px solid #cccccc;
+}
+.meeting-media:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.meeting-media-baodao {
+  width: 470px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  float: left;
+  zoom: 1;
+}
+.meeting-media-baodao:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.meeting-media-baodao .time {
+  width: 60px;
+  height: 60px;
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  font-size: 12px;
+  color: #333333;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+.meeting-media-baodao .time span {
+  display: block;
+  padding-top: 4px;
+  text-align: center;
+  font-size: 24px;
+  color: #217cb9;
+  font-weight: 500;
+  line-height: 34px;
+}
+.meeting-media-baodao .right {
+  width: 410px;
+  height: 170px;
+  padding: 0 20px 0 18px;
+  overflow: hidden;
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  background-color: #f4f4f4;
+}
+.meeting-media-baodao .right h4.title {
+  padding: 10px 0 0;
+  font-size: 14px;
+  color: #000000;
+  line-height: 24px;
+  height: 48px;
+}
+.meeting-media-baodao .right p.source {
+  font-size: 12px;
+  color: #217cb9;
+  line-height: 22px;
+}
+.meeting-media-baodao .right p.txt {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #333333;
+  line-height: 18px;
+  height: 54px;
+  overflow: hidden;
+}
+.meeting-media-baodao:nth-child(2n + 0) {
+  margin-right: 0;
+}
+.meeting-huaxu {
+  margin: 34px 0 30px;
+  height: 170px;
+  zoom: 1;
+}
+.meeting-huaxu:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.meeting-huaxu .left {
+  width: 50px;
+  height: 170px;
+  float: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #333f50;
+  text-align: center;
+  line-height: 50px;
+  writing-mode: vertical-lr;
+}
+.meeting-huaxu .right {
+  float: left;
+  width: 950px;
+  height: 170px;
+  zoom: 1;
+}
+.meeting-huaxu .right:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+/* 精彩花絮重构 */
+.huaxu-content
+{
+  width: 910px;
+}
+
+.huaxu-view
+{
+  position: relative;
+}
+
+.huaxu-view .swiper-button-next,
+.huaxu-view .swiper-button-prev
+{
+  width: 16px;
+  height: 24px;
+  margin-top: -12px;
+  background-position: center;
+  background-size: auto;
+}
+
+.huaxu-view .swiper-button-prev
+{
+  left: 1px;
+  background-image: url(http://www.cwea.org.cn/images/huaxu-view-btn-prev.png);
+}
+
+.huaxu-view .swiper-button-next
+{
+  right: 1px;
+  background-image: url(http://www.cwea.org.cn/images/huaxu-view-btn-next.png);
+}
+
+
+.meeting-huaxu .right .view-btn {
+  float: left;
+  width: 20px;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  cursor: pointer;
+}
+.meeting-huaxu .right .view-prev {
+  background-image: url(http://www.cwea.org.cn/images/huaxu-view-btn-prev.png);
+}
+.meeting-huaxu .right .view-next {
+  background-image: url(http://www.cwea.org.cn/images/huaxu-view-btn-next.png);
+}
+.meeting-huaxu .right .huaxu-view {
+  width: 910px;
+  height: 170px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.meeting-huaxu .right .huaxu-view-content {
+  width: 2000px;
+  height: 170px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.meeting-huaxu .right .huaxu-view-content .huaxu-view-item {
+  width: 220px;
+  height: 170px;
+  overflow: hidden;
+  margin-right: 10px;
+  position: relative;
+  float: left;
+}
+.meeting-huaxu .right .huaxu-view-content .huaxu-view-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.meeting-huaxu .right .huaxu-view-content .huaxu-view-item .title {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  padding: 0 10px;
+  height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.event-page {
+  margin: 10px auto 20px;
+  padding-top: 10px;
+  border-top: 1px solid #cccccc;
+  text-align: center;
+}
+.event-page a {
+  display: inline-block;
+  padding: 0 22px;
+  font-size: 14px;
+  color: #000000;
+}
+.event-carousel {
+  width: 1000px;
+  padding-top: 20px;
+}
+.carousel {
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+.carousel .slides {
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+.carousel .slides .slideItem {
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  cursor: pointer;
+  opacity: ;
+}
+.carousel .slides .slideItem img {
+  width: 100%;
+  height: 100%;
+}
+.carousel .slides .slideItem .cover {
+  background: #000000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 380px;
+  display: block;
+  position: absolute;
+}
+.prevButton,
+.nextButton {
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 39px;
+  height: 39px;
+  z-index: 99;
+  cursor: pointer;
+}
+.nextButton {
+  right: 12px;
+  background: url(http://www.cwea.org.cn/images/carousel-next.png) no-repeat center center;
+}
+.prevButton {
+  left: 12px;
+  background: url(http://www.cwea.org.cn/images/carousel-prev.png) no-repeat center center;
+}
+.event-rili {
+  background-image: url(http://www.cwea.org.cn/images/banner-event-rili.png);
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.event-rili .banner {
+  min-height: 200px;
+}
+.event-rili .banner .banner-title {
+  top: 140px;
+}
+.event-rili-content {
+  position: relative;
+}
+.noselect {
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+.cldnr {
+  font-size: 14px;
+  height: 506px;
+}
+.cldnr .clndr .clndr-controls {
+  height: 80px;
+  background: url(http://www.cwea.org.cn/images/event-rili-title-bg.png);
+  zoom: 1;
+  position: relative;
+  margin-bottom: 10px;
+}
+.cldnr .clndr .clndr-controls:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.cldnr .clndr .clndr-controls .month {
+  width: 240px;
+  float: left;
+  font-size: 44px;
+  line-height: 80px;
+  color: #ffffff;
+  text-align: center;
+}
+.cldnr .clndr .clndr-controls .clndr-control-button {
+  float: left;
+  width: 50px;
+  height: 80px;
+}
+.cldnr .clndr .clndr-controls .clndr-control-button:first-child {
+  margin-left: 330px;
+}
+.cldnr .clndr .clndr-controls .clndr-control-button span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 9999;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-next-button,
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-next-year-button
+{
+  background-image: url(http://www.cwea.org.cn/images/event-rili-btn-next.png);
+  background-position: 2px center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+
+
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-next-button.inactive,
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-next-year-button.inactive,
+{
+  opacity: 0.5;
+}
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-next-year-button.inactive:hover,
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-next-button.inactive:hover {
+  background: none;
+  cursor: default;
+}
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-previous-button,
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-previous-year-button
+{
+  background-image: url(http://www.cwea.org.cn/images/event-rili-btn-prev.png);
+  background-position: 2px center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-previous-button.inactive,
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-previous-year-button.inactive
+{
+  opacity: 0.5;
+}
+
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-previous-button.inactive:hover,
+.cldnr .clndr .clndr-controls .clndr-control-button .clndr-previous-year-button.inactive:hover
+{
+  background: none;
+  cursor: default;
+}
+.cldnr .clndr .clndr-table {
+  table-layout: fixed;
+  width: 660px;
+  height: 415px;
+  margin-left: 340px;
+}
+.cldnr .clndr .clndr-table .header-days {
+  height: 25px;
+  font-size: 10px;
+  background: #f1b655;
+}
+.cldnr .clndr .clndr-table .header-days td {
+  height: 25px;
+}
+.cldnr .clndr .clndr-table .header-days .header-day {
+  vertical-align: middle;
+  text-align: center;
+  border-right: 1px solid #ffffff;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.cldnr .clndr .clndr-table .header-days .header-day:last-child {
+  border-right: none;
+}
+.cldnr .clndr .clndr-table .header-days .header-day:first-child,
+.cldnr .clndr .clndr-table .header-days .header-day:last-child {
+  background-color: #e37a7a;
+}
+.cldnr .clndr .clndr-table tr {
+  height: 60px;
+}
+.cldnr .clndr .clndr-table tr td {
+  vertical-align: top;
+  /* height: 73px; */
+}
+
+/* 日历表格处理 */
+.cldnr .clndr .clndr-table tr .day .day-contents {
+  border-left: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+  background-clip: padding-box;
+  background-color: #ffffff;
+  
+}
+
+.cldnr .clndr .clndr-table tr .event .day-contents>a
+{
+  display: block;
+  margin-top: 2px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  height: 32px;
+  overflow: hidden;
+}
+
+.cldnr .clndr .clndr-table tr .day:hover .day-contents {
+  background-color: #ffffff;
+}
+.cldnr .clndr .clndr-table tr .day.today,
+.cldnr .clndr .clndr-table tr .day.my-today {
+  background-color: transparent; 
+}
+
+.cldnr .clndr .clndr-table tr .day.today.event,
+.cldnr .clndr .clndr-table tr .day.my-today.event {
+  background-color: #a7dbc1;
+}
+.cldnr .clndr .clndr-table tr .day.event .day-contents,
+.cldnr .clndr .clndr-table tr .day.my-event .day-contents {
+  background-color: #009e3b;
+  color: #ffffff;
+}
+
+.cldnr .clndr .clndr-table tr td.event.past:last-child .day-contents {
+    color: #ffffff;
+}
+
+.cldnr .clndr .clndr-table tr .day.event .day-contents span,
+.cldnr .clndr .clndr-table tr .day.my-event .day-contents span
+{
+  font-weight: 300;
+  display: block;
+  padding-bottom: 6px;
+}
+
+.cldnr .clndr .clndr-table tr .day.event:hover,
+.cldnr .clndr .clndr-table tr .day.my-event:hover {
+  background-color: transparent;
+}
+.cldnr .clndr .clndr-table tr .day.inactive,
+.cldnr .clndr .clndr-table tr .day.my-inactive {
+  background: red;
+}
+.cldnr .clndr .clndr-table tr .day:last-child .day-contents {
+  border-right: 4px solid rgba(0, 0, 0, 0.1);
+}
+
+.cldnr .clndr .clndr-table tr td:last-child .day-contents
+{
+  color: #e37a7a;
+}
+
+.cldnr .clndr .clndr-table tr td.past:last-child .day-contents
+{
+  color: #e37a7a;
+}
+
+
+.cldnr .clndr .clndr-table tr .day .day-contents
+{
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 16px;
+  text-align: left;
+}
+.cldnr .clndr .clndr-table tr .empty .day-contents,
+.cldnr .clndr .clndr-table tr .adjacent-month .day-contents,
+.cldnr .clndr .clndr-table tr .my-empty .day-contents,
+.cldnr .clndr .clndr-table tr .my-adjacent-month .day-contents {
+  border-left: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  
+  background-color: #e0e0e0;
+}
+.cldnr .clndr .clndr-table tr .empty:hover .day-contents ,
+.cldnr .clndr .clndr-table tr .adjacent-month:hover .day-contents ,
+.cldnr .clndr .clndr-table tr .my-empty:hover .day-contents ,
+.cldnr .clndr .clndr-table tr .my-adjacent-month:hover .day-contents {
+  background-color: #e0e0e0;
+}
+.cldnr .clndr .clndr-table tr .empty:last-child,
+.cldnr .clndr .clndr-table tr .adjacent-month:last-child,
+.cldnr .clndr .clndr-table tr .my-empty:last-child,
+.cldnr .clndr .clndr-table tr .my-adjacent-month:last-child {
+  border-right: 0 solid rgba(0, 0, 0, 0.1);
+}
+.cldnr .clndr .clndr-table tr:last-child .day .day-contents,
+.cldnr .clndr .clndr-table tr:last-child .my-day .day-contents {
+  border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+}
+.cldnr .clndr .clndr-table tr:last-child .empty,
+.cldnr .clndr .clndr-table tr:last-child .my-empty {
+  border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+}
+.clndr-next-button,
+.clndr-previous-button,
+.clndr-next-year-button,
+.clndr-previous-year-button {
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+.clndr-next-button.inactive,
+.clndr-previous-button.inactive,
+.clndr-next-year-button.inactive,
+.clndr-previous-year-button.inactive {
+  opacity: 0.5;
+  cursor: default;
+}
+.event-cldnr-month {
+  padding-top: 10px;
+  margin-right: -8px;
+  padding-bottom: 20px;
+  zoom: 1;
+}
+.event-cldnr-month:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.event-cldnr-month-item {
+  width: 76px;
+  height: 84px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  padding-top: 8px;
+  margin-right: 8px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.event-cldnr-month-item > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.event-cldnr-month-item h5.title {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  height: 20px;
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+.event-cldnr-month-item h5.title span {
+  font-size: 26px;
+}
+.event-cldnr-month-item p.txt {
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  padding: 0 2px;
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 14px;
+  text-align: center;
+  height: 28px;
+  overflow: hidden;
+}
+.event-cldnr-month-item.on {
+  padding: 12px 4px 4px 4px;
+  background: url(http://www.cwea.org.cn/images/event-rili-month-on.png) 0 0 no-repeat;
+}
+
+.event-cldnr-month-item h5.title,
+.event-cldnr-month-item p.txt,
+.event-cldnr-month-item.img h5.title,
+.event-cldnr-month-item.on h5.title,
+.event-cldnr-month-item.img p.txt,
+.event-cldnr-month-item.on p.txt
+{
+  color: #ffffff;
+}
+.event-cldnr-img {
+  width: 338px;
+  height: 413px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 90px;
+}
+.event-cldnr-img .img-box {
+  width: 100%;
+  height: 100%;
+}
+.event-cldnr-img .img-box img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.event-cldnr-img .img-month {
+  width: 100px;
+  height: 98px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: absolute;
+  right: 14px;
+  top: 28px;
+}
+.event-cldnr-img .img-month .num {
+  padding-top: 16px;
+  color: #99d8b1;
+  font-size: 16px;
+  line-height: 40px;
+  height: 40px;
+}
+.event-cldnr-img .img-month .num span {
+  font-size: 40px;
+}
+.event-cldnr-img .img-month p.en {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 22px;
+  padding-top: 6px;
+  text-transform: uppercase;
+}
+.event-rili-zhutiimg {
+  width: 400px;
+  height: 500px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 99;
+}
+.event-rili-zhutiimg img
+{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9;
+  margin: auto;
+}
+
+/* chajian */
+.mod18Box {
+  padding: 10px;
+  border: 1px solid #CCC;
+  margin: 0px auto;
+  width: 680px;
+  background: #FFF;
+  box-shadow: 0px 1px 5px #cccccc;
+}
+.mod18 {
+  width: 680px;
+  height: 406px;
+  margin: 0px auto;
+  position: relative;
+  background: #f7f7f7;
+}
+.mod18 .btn {
+  position: absolute;
+  width: 15px;
+  height: 70px;
+  top: 336px;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 50px;
+  font-weight: bold;
+}
+.mod18 .prev {
+  left: 0;
+  background: url(http://www.cwea.org.cn/images/prevBtn.png) no-repeat;
+}
+.mod18 #prevTop,
+.mod18 #nextTop {
+  top: 140px;
+  width: 46px;
+  height: 48px;
+}
+.mod18 #prevTop {
+  background: url(http://www.cwea.org.cn/images/prevBtnTop.png) 0 0 no-repeat;
+}
+.mod18 #nextTop {
+  background: url(http://www.cwea.org.cn/images/nextBtnTop.png) 0 0 no-repeat;
+}
+.mod18 .next {
+  right: 0;
+  background: url(http://www.cwea.org.cn/images/nextBtn.png) no-repeat;
+}
+.mod18 li {
+  float: left;
+}
+.mod18 .cf li {
+  position: relative;
+  color: #fff;
+}
+.mod18 .cf a {
+  display: block;
+  width: 680px;
+  height: 330px;
+  position: absolute;
+  color: #fff;
+}
+.mod18 .cf li span {
+  display: block;
+  width: 640px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px 20px;
+  line-height: 22px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.6);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr="#60000000", endColorstr="#60000000");
+}
+.mod18 .picBox {
+  height: 330px;
+  position: relative;
+  overflow: hidden;
+}
+.mod18 .picBox ul {
+  height: 330px;
+  position: absolute;
+}
+.mod18 .picBox li {
+  width: 680px;
+  height: 330px;
+}
+.mod18 .listBox {
+  width: 642px;
+  height: 70px;
+  margin: 0 auto;
+  position: relative;
+  padding: 6px 0 0px;
+  overflow: hidden;
+}
+.mod18 .listBox ul {
+  height: 100px;
+  position: absolute;
+}
+.mod18 .listBox li {
+  width: 129px;
+  height: 70px;
+  cursor: pointer;
+  position: relative;
+}
+.mod18 .listBox li i {
+  display: none;
+}
+.mod18 .listBox li a {
+  display: block;
+  width: 124px;
+  height: 70px;
+}
+.mod18 .listBox li img {
+  width: 124px;
+  height: 70px;
+}
+.mod18 .listBox .on img {
+  width: 118px;
+  height: 64px;
+  border: 3px solid #ff6600;
+}
+.mod18 .listBox .on i {
+  display: block;
+}
+
+
+
+/* liang add */
+.unit-xinxi li{
+  display:block;
+  float:left;
+  width: 104px;
+  height: 104px;
+  border:solid 1px #eee;
+  text-align: center;
+  margin-right: 10px;
+}
+.imgAttachment{
+    display:block;
+    width:100px;
+    height:100px;
+    margin: 2px;
+    position:relative;
+    z-index: 1;
+}
+
+.delAttachment{
+    display:none;
+    position:relative;
+    width: 20px;
+    height: 20px;
+    top:-102px;
+    left:42px;
+    background-color: rgba(255,255,255,0.7);
+    /*background-color: #ff0000;*/
+    z-index: 999;
+    cursor: pointer;
+}
+@media \0screen\,screen\9 {/* 鍙敮鎸両E6銆�7銆�8 */
+  .delAttachment{
+    display:none;
+    position:relative;
+    top:-80px;
+    left:65px;
+    background-color:#ffffff;
+    filter:Alpha(opacity=50);
+    position:static; /* IE6銆�7銆�8鍙兘璁剧疆position:static(榛樿灞炴��) 锛屽惁鍒欎細瀵艰嚧瀛愬厓绱犵户鎵緼lpha鍊� */
+    *zoom:1; /* 婵�娲籌E6銆�7鐨刪aslayout灞炴�э紝璁╁畠璇绘噦Alpha */
+    /*background-color: #ff0000;*/
+    z-index: 999;
+    cursor: pointer;
+  }
+}
+
+
+
+/* 轮播 */
+.swaplist{
+  position:absolute;
+  left:-1250px;
+  top:0px;
+}
+
+.events-btn
+{
+  width: 34px;
+  height: 64px;
+  display: block;
+  line-height: 3000;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.events-btn-prev
+{
+  left: 9%;
+  background-image: url(http://www.cwea.org.cn/images/event-btn-prev.png);
+}
+
+.events-btn-next
+{
+  right: 9%;
+  background-image: url(http://www.cwea.org.cn/images/event-btn-next.png);
+}
+
+.contact-map
+{
+  padding: 20px 0;
+}
+
+.contact-map img
+{
+  display: block;
+  width: 100%;
+}
+
+.contact-box
+{
+  padding: 20px 0;
+  zoom: 1;
+}
+
+.contact-box:after
+{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.contact-left
+{
+  float: left;
+  width: 366px;
+  padding-left: 24px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.contact-left p.title
+{
+  font-size: 22px;
+  color: #009e3b;
+  padding-left: 0;
+}
+
+.contact-left p
+{
+  padding: 4px 0 4px 36px;
+  position: relative;
+}
+
+.contact-left p a
+{
+  color: #000000;
+}
+
+.contact-left p>span
+{
+  display: block;
+  position: absolute;
+  left: 2px;
+  top: 6px;
+}
+
+.contact-left p:nth-child(3)>span
+{
+  top: 8px;
+}
+
+.contact-left p:nth-child(4)>span
+{
+  top: 8px;
+}
+
+.contact-left p:nth-child(5)>span
+{
+  top: 8px;
+}
+
+.contact-right
+{
+  float: right;
+  width: 559px;
+}
+
+.contact-right img
+{
+  display: block;
+  width: 100%;
+}
+
+/* 活动详情 筛选 */
+.event-shaixuan
+{
+  background-color: #eeeeee;
+}
+
+.event-shaixuan-content
+{
+  width: 1000px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+.event-shaixuan-content:after
+{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.event-shaixuan-item
+{
+  float: right;
+  zoom: 1;
+}
+
+.event-shaixuan-item:after
+{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.event-shaixuan-item-title
+{
+  width: 70px;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+}
+
+.event-shaixuan-item-content
+{
+  float: left;
+  width: 130px;
+  height: 40px;
+}
+
+.event-shaixuan-item-content>span
+{
+  display: block;
+  height: 40px;
+  overflow: hidden;
+  line-height: 44px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #bfaa75;
+  background-image: url(http://www.cwea.org.cn/images/shaixuan-item-down.png);
+  background-repeat: no-repeat;
+  background-position: 90px 17px;
+  cursor: pointer;
+}
+
+.event-shaixuan-item-content>span.up
+{
+  background-image: url(http://www.cwea.org.cn/images/shaixuan-item-up.png);
+}
+
+.event-shaixuan-item-content-list
+{
+  display: none;
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.event-shaixuan-item-content-list>a
+{
+  display: block;
+  height: 40px;
+  line-height: 44px;
+  color: #000000;
+  border-bottom: 1px solid #bfaa75;
+  background-color: #ffffff;
+}
+
+.event-shaixuan-item-content-list>a:last-child
+{
+  border-bottom: 0;
+}
+
+.event-shaixuan-item-content-list>a:hover
+{
+  background-color: #bfaa75;
+  color: #ffffff;
+}
+

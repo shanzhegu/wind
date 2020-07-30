@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["Structure"],{bbc8:function(t,e,u){"use strict";u.r(e);var n=function(){var t=this,e=t.$createElement,u=t._self._c||e;return u("div",{staticClass:"structure"},[t._v(" 组织结构 ")])},r=[],c={name:"Structure"},s=c,a=u("2877"),l=Object(a["a"])(s,n,r,!1,null,null,null);e["default"]=l.exports}}]);
+//# sourceMappingURL=Structure.d3b310f9.js.map

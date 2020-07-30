@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["Video"],{b365:function(e,n,t){"use strict";t.r(n);var i=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",[e._v(" 视频中心 ")])},l=[],o={name:"Video"},u=o,a=t("2877"),c=Object(a["a"])(u,i,l,!1,null,null,null);n["default"]=c.exports}}]);
+//# sourceMappingURL=Video.e70615c0.js.map
